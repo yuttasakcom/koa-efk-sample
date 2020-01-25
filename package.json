@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "fluent-logger": "^3.4.1",
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
