@@ -9,7 +9,6 @@ app.use(fluentLogger())
 
 app.use(async ctx => {
   ctx.logger.emit('follow', { message: 'Yo ........' })
-  console.log('B')
 })
 
 app.listen(PORT, () => {
